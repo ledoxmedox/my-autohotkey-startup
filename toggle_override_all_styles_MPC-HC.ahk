@@ -1,4 +1,6 @@
-﻿SetTitleMatchMode, 2
+﻿#NoTrayIcon
+#SingleInstance
+SetTitleMatchMode, 2
 
 Loop
 {
@@ -10,6 +12,10 @@ Loop
     }
     Sleep, 500
 }
+
+[::PgUp
+
+]::PgDn
 
 \::
 Send {Alt}
