@@ -1,6 +1,9 @@
+#SingleInstance
+
 #Include systray_uwp_volume_mixer.ahk
 #Include blacklistdotexe.ahk
 #Include mute_current_application.ahk
+#Include win-e.ahk
 
 ; replace_menu_key.ahk
 AppsKey::LWin
