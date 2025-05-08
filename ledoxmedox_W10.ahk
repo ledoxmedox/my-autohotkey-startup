@@ -1,5 +1,7 @@
-#SingleInstance
-#Include systray_uwp_volume_mixer.ahk
+#SingleInstance Force
+
+#Include systray_uwp_volume_mixer.ahk ; must top
+#Include menutray.ahk
 #Include loopexe.ahk
 #Include mute_current_application.ahk
 
