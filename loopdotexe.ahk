@@ -1,5 +1,8 @@
-SetTitleMatchMode, 2
-DetectHiddenWindows,on
+#NoTrayIcon
+#Persistent
+#SingleInstance Force
+DetectHiddenWindows On
+SetTitleMatchMode 2
 
 Loop
 {
@@ -19,13 +22,13 @@ Loop
 	{
 		run, mpchc.ahk
 		WinWaitClose, ahk_exe mpc-hc64.exe
-		WinClose,\mpchc.ahk
+		WinClose, \mpchc.ahk
 	}
 	ifWinExist, ahk_exe PotPlayerMini64.exe
 	{
 		run, potplayer.ahk
 		WinWaitClose, ahk_exe PotPlayerMini64.exe
-		WinClose,\potplayer.ahk
+		WinClose, \potplayer.ahk
 	}
     Sleep, 500
 }

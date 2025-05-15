@@ -1,5 +1,5 @@
 ﻿#NoTrayIcon
-#SingleInstance
+#SingleInstance Force
 SetTitleMatchMode, 2
 
 Loop
